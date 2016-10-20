@@ -1,0 +1,32 @@
+{
+  "name": "Ghost Blazer",
+  "description": "Setup the Ruby gem blazer as a separate service.",
+  "repository": "https://github.com/buren/ghost_blazer",
+  "keywords": [],
+  "env": {
+    "BLAZER_DATABASE_URL": {
+      "description": "The full database URL.",
+      "value": "",
+      "required": true
+    },
+    "BLAZER_USERNAME": {
+      "description": "Username to login with.",
+      "value": "",
+      "required": true
+    },
+    "BLAZER_PASSWORD": {
+      "description": "Password to login with.",
+      "value": "",
+      "required": true
+    },
+    "RAILS_ENV": "production",
+    "SECRET_KEY_BASE": {
+      "description": "Rails secret token",
+      "generator": "secret"
+    }
+  },
+  "addons": [],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}

@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Setup the Ruby gem blazer as a separate service.
 
-Things you may want to cover:
+* Ruby 2.3
+* Ruby on Rails 5.0
+* PostgreSQL 9.3
 
-* Ruby version
+## Deploy
 
-* System dependencies
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/buren/ghost_blazer)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+git clone https://github.com/buren/ghost_blazer
+cd ghost_blazer
+heroku create <your_desired_name>
+```
