@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 
 gem 'blazer', '~> 1.8'
 
+gem 'bootsnap', '>= 1.3', require: false # Optimize Rails boot time
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
