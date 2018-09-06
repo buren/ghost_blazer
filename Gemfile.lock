@@ -43,7 +43,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
-    blazer (1.8.2)
+    blazer (1.9.0)
       activerecord (>= 4)
       chartkick
       railties (>= 4)
@@ -52,7 +52,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     byebug (9.0.6)
-    chartkick (2.3.4)
+    chartkick (3.0.1)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     debug_inspector (0.0.2)
@@ -62,7 +62,7 @@ GEM
     ffi (1.9.14)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.0.1)
+    i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     jquery-rails (4.2.1)
       rails-dom-testing (>= 1, < 3)
@@ -85,12 +85,12 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.4)
     nio4r (2.3.1)
-    nokogiri (1.8.2)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     pg (1.0.0)
     puma (3.6.0)
     rack (2.0.5)
-    rack-test (1.0.0)
+    rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.0)
       actioncable (= 5.2.0)
@@ -156,7 +156,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blazer (~> 1.8)
+  blazer (~> 1.9)
   bootsnap (>= 1.3)
   byebug
   jquery-rails
@@ -172,7 +172,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
