@@ -2,9 +2,9 @@
 
 Setup the Ruby gem blazer as a separate service.
 
-* Ruby 2.3
-* Ruby on Rails 5.0
-* PostgreSQL 9.3
+* Ruby 2.5
+* Ruby on Rails 5.2
+* PostgreSQL
 
 ## Deploy
 
