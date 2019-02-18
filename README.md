@@ -2,7 +2,7 @@
 
 Standalone deploy of the excellent [`blazer`](https://github.com/ankane/blazer) gem.
 
-* Ruby 2.5
+* Ruby 2.6
 * Ruby on Rails 5.2
 * PostgreSQL
 
