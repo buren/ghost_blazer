@@ -44,7 +44,7 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     bindex (0.5.0)
-    blazer (2.0.1)
+    blazer (2.0.2)
       activerecord (>= 4.2)
       chartkick
       railties (>= 4.2)
@@ -53,7 +53,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     byebug (11.0.1)
-    chartkick (3.0.2)
+    chartkick (3.1.0)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     errbase (0.1.1)
