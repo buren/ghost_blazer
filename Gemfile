@@ -9,7 +9,7 @@ gem 'loofah', '>= 2.2.3'
 # Use pg as the database for Active Record
 gem 'pg', '~> 1.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use jquery as the JavaScript library
