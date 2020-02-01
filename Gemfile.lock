@@ -52,7 +52,7 @@ GEM
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
-    byebug (11.0.1)
+    byebug (11.1.1)
     chartkick (3.3.0)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
