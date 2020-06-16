@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 6.0'
 # Ensure secure version of loofah, see https://github.com/flavorjones/loofah/issues/154
 gem 'loofah', '>= 2.2.3'
 # Use pg as the database for Active Record
