@@ -17,7 +17,7 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 
-gem 'blazer', '~> 2.2'
+gem 'blazer', '~> 2.3'
 
 gem 'bootsnap', '>= 1.3', require: false # Optimize Rails boot time
 
