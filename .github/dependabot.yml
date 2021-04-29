@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: puma
+    versions:
+    - 5.1.1
+    - 5.2.0
+  - dependency-name: rails
+    versions:
+    - 6.1.0
+    - 6.1.1
+  - dependency-name: bootsnap
+    versions:
+    - 1.6.0
