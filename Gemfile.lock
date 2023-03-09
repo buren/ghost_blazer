@@ -91,7 +91,7 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pg (1.4.6)
-    puma (4.3.12)
+    puma (6.1.1)
       nio4r (~> 2.0)
     racc (1.6.1)
     rack (2.2.6.3)
@@ -167,7 +167,7 @@ DEPENDENCIES
   listen (~> 3.7.1)
   loofah (>= 2.2.3)
   pg (~> 1.4)
-  puma (~> 4.3)
+  puma (~> 6.1)
   rails (~> 5.2)
   spring
   spring-watcher-listen (~> 2.0.0)
